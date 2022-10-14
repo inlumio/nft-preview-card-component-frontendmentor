@@ -39,7 +39,9 @@ body {
 	background-color: var(--card-bg-blue);
 	padding: 1.5rem;
 	border-radius: 1rem;
-	margin-block-end: 2rem;
+	margin-block-end: 7rem;
+	box-shadow: 0 2rem 0 1rem hsl(217, 55%, 10%, 0.7),
+		0 2rem 0 3rem hsl(216, 57%, 10%, 0.3);
 }
 
 .card > *:not(:last-child) {
